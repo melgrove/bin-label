@@ -45,14 +45,16 @@ bin_df <- data.frame(
   long=bins_long_vec, 
   lat=bins_lat_vec, 
   chars=str_sub(bins_names_vec, -2),
-  stream=str_sub(bins_names_vec, -1),
+  stream_char=str_sub(bins_names_vec, -1),
   zone_num=integer(length(bins)), 
   bin_num=integer(length(bins))
 )
 
-bin_df$stream[bin_df$stream == 'C'] <- 'Compost'
-bin_df$stream[bin_df$stream == 'R'] <- 'Recycle'
-bin_df$stream[bin_df$stream == 'L'] <- 'Landfill'
+stream <- character(nrow(bin_df))
+stream[bin_df$stream == 'C'] <- 'Compost'
+stream[bin_df$stream == 'R'] <- 'Recycle'
+stream[bin_df$stream == 'L'] <- 'Landfill'
+bin_df <- cbind(bin_df, stream)
 
 # Generate IDs
   # Set non-edge case zones
@@ -79,7 +81,7 @@ bin_df_z3$bin_num[order(bin_df_z3$lat)] <- seq_along(bin_df_z3$lat)
 
 bin_df <- rbind(bin_df_z1, bin_df_z2, bin_df_z3)
 bin_df$bin_num <- formatC(bin_df$bin_num, width=3, flag="0")
-bin_df <- bin_df %>% mutate(names = paste0(zone_num, bin_num, chars))
+bin_df <- bin_df %>% mutate(name = paste0(zone_num, bin_num, chars))
 
 # Zone Polygon Dataframe
 zone_df <- data.frame(x=zones[1:3][[1]][[1]][,1], y=zones[1:3][[1]][[1]][,2], zone_num=1)
@@ -88,12 +90,16 @@ zone_df <- rbind(zone_df, data.frame(x=zones[1:3][[3]][[1]][,1], y=zones[1:3][[3
 
 # Convert to bin_df to sf
 projcrs <- "+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"
-sf_new <- st_as_sf(x = bin_df,                         
+sf_new <- st_as_sf(x = bin_df %>% select(long, lat, name, stream),                         
                coords = c("long", "lat"),
                crs = projcrs)
 
 # Export GeoJSON
-st_write(sf_new, dsn = paste0(root_dir, "/geojson/generated_labels2.json"), driver = "GeoJSON")
+st_write(sf_new, dsn = paste0(root_dir, "/geojson/generated_labels5.json"), driver = "GeoJSON")
+
+# Export Bin ID CSV
+write_csv(sf_new %>% transmute('Bin ID' = name, 'Stream'=stream), paste0(root_dir, "/label-order/binIDs1.csv"))
+
 
 stop()
 # Mapping
