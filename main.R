@@ -7,7 +7,12 @@ library(sp)
 library(ggmap)
 library(sf)
 library(geojsonsf)
-ggmap::register_google("AIzaSyCKFuWElFtWdo5Dk6RJN-XhJnu-aCLMXmw")
+
+# This is an API Key to use Google Maps in R. You can get one yourself from
+# Google or ask me for mine. I didn't include it in the file because it
+# costs money to use and I don't know who will be using this file in the future
+# - Oliver
+ggmap::register_google("API Key Goes Here")
 
 # Parse GeoJSON
 root_dir <- dirname(sys.frame(1)$ofile)
@@ -88,6 +93,26 @@ zone_df <- data.frame(x=zones[1:3][[1]][[1]][,1], y=zones[1:3][[1]][[1]][,2], zo
 zone_df <- rbind(zone_df, data.frame(x=zones[1:3][[2]][[1]][,1], y=zones[1:3][[2]][[1]][,2], zone_num=2))
 zone_df <- rbind(zone_df, data.frame(x=zones[1:3][[3]][[1]][,1], y=zones[1:3][[3]][[1]][,2], zone_num=3))
 
+# Get ID list for Google Doc
+zone1_bin_ids <- bin_df %>% filter(zone_num == 1)
+zone1_bin_ids <- zone1_bin_ids[order((zone1_bin_ids %>% filter(zone_num == 1))$lat),] %>% select(name)
+zone1_bin_ids <- zone1_bin_ids %>% mutate(zone = 1)
+rownames(zone1_bin_ids) <- seq_along(zone1_bin_ids$name)
+
+zone2_bin_ids <- bin_df %>% filter(zone_num == 2)
+zone2_bin_ids <- zone2_bin_ids[order((zone2_bin_ids %>% filter(zone_num == 2))$lat),] %>% select(name)
+zone2_bin_ids <- zone2_bin_ids %>% mutate(zone = 2)
+rownames(zone2_bin_ids) <- seq_along(zone2_bin_ids$name)
+
+zone3_bin_ids <- bin_df %>% filter(zone_num == 3)
+zone3_bin_ids <- zone3_bin_ids[order((zone3_bin_ids %>% filter(zone_num == 3))$lat),] %>% select(name)
+zone3_bin_ids <- zone3_bin_ids %>% mutate(zone = 3)
+rownames(zone3_bin_ids) <- seq_along(zone3_bin_ids$name)
+
+ordered_bin_ids <- zone1_bin_ids %>% 
+                      dplyr::union(zone2_bin_ids) %>% 
+                      dplyr::union(zone3_bin_ids)
+
 # Convert to bin_df to sf
 projcrs <- "+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"
 sf_new <- st_as_sf(x = bin_df %>% select(long, lat, name, stream),                         
@@ -99,9 +124,9 @@ st_write(sf_new, dsn = paste0(root_dir, "/geojson/generated_labels5.json"), driv
 
 # Export Bin ID CSV
 write_csv(sf_new %>% transmute('Bin ID' = name, 'Stream'=stream), paste0(root_dir, "/label-order/binIDs1.csv"))
+write_csv(ordered_bin_ids, paste0(root_dir, "/label-order/binIDs2.csv"))
 
-
-stop()
+stop('Stop before mapping')
 # Mapping
   # Base Terrain from Google
 p <- ggmap(get_googlemap(center = c(Longitude = -118.4436, Latitude = 34.07),
