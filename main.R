@@ -12,7 +12,7 @@ library(geojsonsf)
 # Google or ask me for mine. I didn't include it in the file because it
 # costs money to use and I don't know who will be using this file in the future
 # - Oliver
-ggmap::register_google("API Key Goes Here")
+ggmap::register_google("AIzaSyCKFuWElFtWdo5Dk6RJN-XhJnu-aCLMXmw")
 
 # Parse GeoJSON
 root_dir <- dirname(sys.frame(1)$ofile)
@@ -126,20 +126,21 @@ st_write(sf_new, dsn = paste0(root_dir, "/geojson/generated_labels5.json"), driv
 write_csv(sf_new %>% transmute('Bin ID' = name, 'Stream'=stream), paste0(root_dir, "/label-order/binIDs1.csv"))
 write_csv(ordered_bin_ids, paste0(root_dir, "/label-order/binIDs2.csv"))
 
+
 stop('Stop before mapping')
 # Mapping
   # Base Terrain from Google
-p <- ggmap(get_googlemap(center = c(Longitude = -118.4436, Latitude = 34.07),
-                         zoom = 15, scale = 2,
+p <- ggmap(get_googlemap(center = c(Longitude = -118.431, Latitude = 34.073),
+                         zoom = 17, scale = 2,
                          maptype ='satellite',
                          color = 'color'))
 
   # Layers
     # Bin Points
-p + geom_point(aes(x=long, y=lat, color=stream), data = bin_df[no_zone_bin_indices[1:19],], size=2.5) +
-    geom_polygon(aes(x=x, y=y), fill='green', alpha=0.4, zone_df %>% filter(zone_num == 1)) +
-    geom_polygon(aes(x=x, y=y), fill='red', alpha=0.4, zone_df %>% filter(zone_num == 2)) +
-    geom_polygon(aes(x=x, y=y), fill='blue', alpha=0.4, zone_df %>% filter(zone_num == 3))
+p + geom_point(aes(x=long, y=lat, color=stream), data = not_found, size=2.5) 
+    #geom_polygon(aes(x=x, y=y), fill='green', alpha=0.4, zone_df %>% filter(zone_num == 1)) +
+    #geom_polygon(aes(x=x, y=y), fill='red', alpha=0.4, zone_df %>% filter(zone_num == 2)) +
+    #geom_polygon(aes(x=x, y=y), fill='blue', alpha=0.4, zone_df %>% filter(zone_num == 3))
     # Zone 2 points
 p + geom_point(aes(x=x, y=y, group=zone_num), data = zone2, size=1)
 
