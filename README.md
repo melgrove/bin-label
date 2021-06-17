@@ -16,8 +16,8 @@ The repository has files with the bin data itself, and source code files used to
 *You must have Node.js installed and run `npm i` before these will work*  
   
 **Convert KML to GeoJSON**  
-`node to-geojson.js <directory-name | geojson-file-name> <output-file-name> [--combine-dir]`
+`node to-geojson.js <directory-name | kml-file-name> <output-file-name> [--combine-dir]`
 - `--combine-dir` combines all KMLs in the folder into a single GeoJSON
 
 **Convert GeoJSON to KML**  
-`node to-kml.js <kml-file-name> <output-file-name>`
+`node to-kml.js <geojson-file-name> <output-file-name>`
