@@ -1,3 +1,9 @@
+#
+# This script cleans bin naming errors, separates the bins from their zones and assigns them
+# a zone, formats data into being 'tidy', generates IDs based on zone, cluster, stream, and lat
+# does some mapping of the bins & zones over UCLA, and formats & exports the cleaned data into a GeoJSON
+#
+
 # Init
 if(!requireNamespace("devtools")) install.packages("devtools")
 devtools::install_github("dkahle/ggmap", ref = "tidyup", force=TRUE)

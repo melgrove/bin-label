@@ -1,0 +1,7082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RNG Bin Labeling</name>
+	<description>The project is it its initial phase of development. In this phase three members of RNG will be recording bin locations and types based on the procedure in these documents: 
+
+        Victor Stanley Labeling System: https://docs.google.com/document/d/16weyOPzB-NbNBFd3lQtPPs2vavjmYPfndcnJpWyhasE/edit
+
+        Phase 1 Guide and Timeline: 
+        https://docs.google.com/document/d/1V7yJT2pYJcA30n9fjokpxc6qY1vJjyPDdOq_OKYdOD8/edit</description>
+	<gx:CascadingStyle kml:id="__managed_style_19A162B5D91AFF188260">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_094123115F1AFF188260">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2.66667</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0069D449251AFF18825F">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_094123115F1AFF188260</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_19A162B5D91AFF188260</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="09B797A8721AFDC62707">
+		<ExtendedData>
+			<Data name="name">
+				<value>1084FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4426601074425,34.07255530774862,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DFC5A81491AFDC62709">
+		<ExtendedData>
+			<Data name="name">
+				<value>1085FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4426525115746,34.07255820435329,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DB61A1E4E1AFDC6270A">
+		<ExtendedData>
+			<Data name="name">
+				<value>1134FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4423019187218,34.07356864719513,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00B194345B1AFDC6270C">
+		<ExtendedData>
+			<Data name="name">
+				<value>1136FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4422925040725,34.07356920049521,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07812F1C7A1AFDC6270D">
+		<ExtendedData>
+			<Data name="name">
+				<value>1135FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4418301500596,34.07356918387842,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FF2FF4B081AFDC6270F">
+		<ExtendedData>
+			<Data name="name">
+				<value>1137FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.44184248226,34.0735768587051,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C9BF7971D1AFDC62710">
+		<ExtendedData>
+			<Data name="name">
+				<value>1121AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4416689918173,34.07332865595769,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07B54ED2DE1AFDC62712">
+		<ExtendedData>
+			<Data name="name">
+				<value>1122AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4416795701687,34.07333542725434,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FF70CC42B1AFDC62714">
+		<ExtendedData>
+			<Data name="name">
+				<value>1120AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4416785559998,34.07332524476379,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0744CCF47F1AFDC62716">
+		<ExtendedData>
+			<Data name="name">
+				<value>1103FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4419987104848,34.07315722866552,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03915D00F91AFDC62718">
+		<ExtendedData>
+			<Data name="name">
+				<value>1105FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4420062774857,34.07316165254009,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BD7309CC91AFDC62719">
+		<ExtendedData>
+			<Data name="name">
+				<value>1145DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.44202409431,34.07404794349902,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AACF24BA91AFDC6271B">
+		<ExtendedData>
+			<Data name="name">
+				<value>1144DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4420242827265,34.07404160290674,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FE36123931AFDC6271D">
+		<ExtendedData>
+			<Data name="name">
+				<value>1143DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4420233140884,34.07403785322068,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05DF76F69D1AFDC6271E">
+		<ExtendedData>
+			<Data name="name">
+				<value>1157FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4413709074076,34.07446691000704,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DEACF79771AFDC6271F">
+		<ExtendedData>
+			<Data name="name">
+				<value>1158FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4413616624073,34.07446874876823,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C01D8792F1AFDC62720">
+		<ExtendedData>
+			<Data name="name">
+				<value>1151AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4414112563639,34.07416293318335,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B872DCDAF1AFDC62722">
+		<ExtendedData>
+			<Data name="name">
+				<value>1150AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4414210299875,34.07416164401305,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B454C127D1AFDC62723">
+		<ExtendedData>
+			<Data name="name">
+				<value>1149AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4414374223653,34.07416086293338,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01974C5EE81AFDC62726">
+		<ExtendedData>
+			<Data name="name">
+				<value>1163XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4411597643382,34.07458896509887,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09E0188D871AFDC62727">
+		<ExtendedData>
+			<Data name="name">
+				<value>1162XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4414488955415,34.07458696121959,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F631DB04C1AFDC62729">
+		<ExtendedData>
+			<Data name="name">
+				<value>1164XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4411915210255,34.07461383883956,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02580FD9FD1AFDC6272A">
+		<ExtendedData>
+			<Data name="name">
+				<value>1165XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.441350675835,34.07461672202738,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04583BE9B21AFDC6272C">
+		<ExtendedData>
+			<Data name="name">
+				<value>1177FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4408857890317,34.07542105338321,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0519D56AF21AFDC6272D">
+		<ExtendedData>
+			<Data name="name">
+				<value>1179FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4408863944063,34.07542608246924,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0032504E291AFDC6272E">
+		<ExtendedData>
+			<Data name="name">
+				<value>1176FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.441542255789,34.07541852579465,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04140BAFF41AFDC62730">
+		<ExtendedData>
+			<Data name="name">
+				<value>1178FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4415448845154,34.07542396306788,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E07343FCC1AFDC62732">
+		<ExtendedData>
+			<Data name="name">
+				<value>1205AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4407682130124,34.07659314732497,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0769B89D321AFDC62734">
+		<ExtendedData>
+			<Data name="name">
+				<value>1204AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4407599042886,34.07659247169709,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BFB54ED861AFDC62737">
+		<ExtendedData>
+			<Data name="name">
+				<value>1206AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.440764421235,34.0765958036944,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06F5A014EC1AFDC62738">
+		<ExtendedData>
+			<Data name="name">
+				<value>1202FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.44047484299,34.07646351897308,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0734FAF8F21AFDC6273A">
+		<ExtendedData>
+			<Data name="name">
+				<value>1203FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4405008446092,34.07647202950677,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="023948F6661AFDC6273B">
+		<ExtendedData>
+			<Data name="name">
+				<value>1189FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4408326303278,34.0759305392632,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08FE0C4C151AFDC6273C">
+		<ExtendedData>
+			<Data name="name">
+				<value>1190FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.440841911473,34.07593222306145,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07314F2D2A1AFDC6273E">
+		<ExtendedData>
+			<Data name="name">
+				<value>1184AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4404567383137,34.07552655120207,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02D89C29931AFDC6273F">
+		<ExtendedData>
+			<Data name="name">
+				<value>1185AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4404659724348,34.07553235030466,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="086AF9E6E71AFDC62740">
+		<ExtendedData>
+			<Data name="name">
+				<value>1186AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4404565996185,34.07553336484778,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F69F791B81AFDC62741">
+		<ExtendedData>
+			<Data name="name">
+				<value>1191XR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4401939694265,34.0759875458603,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05E0C1B0231AFDC62742">
+		<ExtendedData>
+			<Data name="name">
+				<value>1192XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.440194682583,34.075995675072,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F8EF7665A1AFDC62744">
+		<ExtendedData>
+			<Data name="name">
+				<value>1187XR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.440125604938,34.07581694545235,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FAFB3902C1AFDC62747">
+		<ExtendedData>
+			<Data name="name">
+				<value>1188XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4401107090174,34.07581745662367,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="013D5078561AFDC62748">
+		<ExtendedData>
+			<Data name="name">
+				<value>1196XR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4402011895404,34.07617406448211,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B9DED77F81AFDC62749">
+		<ExtendedData>
+			<Data name="name">
+				<value>1197XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4402009897232,34.07618314977386,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0564F65E0D1AFDC6274A">
+		<ExtendedData>
+			<Data name="name">
+				<value>1198XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4400060697546,34.07618753145513,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D24E2F43C1AFDC6274B">
+		<ExtendedData>
+			<Data name="name">
+				<value>1201XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4395497259254,34.07643245851466,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="056F8C02E51AFDC6274C">
+		<ExtendedData>
+			<Data name="name">
+				<value>1199FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4391585382393,34.07630184067826,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="073F1AA4D91AFDC6274E">
+		<ExtendedData>
+			<Data name="name">
+				<value>1200FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4391648239791,34.07630865250336,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F8BCAB3291AFDC62750">
+		<ExtendedData>
+			<Data name="name">
+				<value>1193DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4392019766019,34.07609539026058,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1B980FB8821AFDC62750">
+		<ExtendedData>
+			<Data name="name">
+				<value>1194DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4391959397056,34.07609911762291,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="004C19FB8E1AFDC62751">
+		<ExtendedData>
+			<Data name="name">
+				<value>1195DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4391901433749,34.07610190925498,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D4FB36BE91AFDC62752">
+		<ExtendedData>
+			<Data name="name">
+				<value>1175FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4392260492817,34.07529589328265,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0647F705351AFDC62753">
+		<ExtendedData>
+			<Data name="name">
+				<value>1174FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4392194692372,34.07529264554284,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D574405261AFDC62755">
+		<ExtendedData>
+			<Data name="name">
+				<value>1180FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.43981901198,34.07543038601354,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A52BC1DF31AFDC62757">
+		<ExtendedData>
+			<Data name="name">
+				<value>1181FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4398098778029,34.07543125628588,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05C4D708441AFDC62758">
+		<ExtendedData>
+			<Data name="name">
+				<value>1182FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4401405990668,34.07547874673352,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04D29504491AFDC62759">
+		<ExtendedData>
+			<Data name="name">
+				<value>1183FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4401578135669,34.07547932134363,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="045B8A64451AFDC6275A">
+		<ExtendedData>
+			<Data name="name">
+				<value>1170DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4396659329223,34.07523663210399,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F569E4ECD1AFDC6275B">
+		<ExtendedData>
+			<Data name="name">
+				<value>1169DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4396607034953,34.07523594474528,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="056CD7F5601AFDC6275C">
+		<ExtendedData>
+			<Data name="name">
+				<value>1168DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4396559357108,34.0752295916135,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01D84D9EB81AFDC6275D">
+		<ExtendedData>
+			<Data name="name">
+				<value>1166FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4398202981485,34.07513354315716,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="023B2148621AFDC6275E">
+		<ExtendedData>
+			<Data name="name">
+				<value>1167FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4398087829562,34.07513867106174,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0521DB7F831AFDC6275F">
+		<ExtendedData>
+			<Data name="name">
+				<value>1171DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.440213804345,34.07524938394424,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="005B046C1A1AFDC62760">
+		<ExtendedData>
+			<Data name="name">
+				<value>1172DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4402165507866,34.07525208111802,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0387C4D0A21AFDC62761">
+		<ExtendedData>
+			<Data name="name">
+				<value>1173DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4402169502221,34.07525333116467,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0ECA1BDF3B1AFDC62762">
+		<ExtendedData>
+			<Data name="name">
+				<value>1153AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4407365234702,34.07418654565198,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0767C5CAE01AFDC62763">
+		<ExtendedData>
+			<Data name="name">
+				<value>1152AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4407339627506,34.07418562973316,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="024536E8F21AFDC62764">
+		<ExtendedData>
+			<Data name="name">
+				<value>1154AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4407334050234,34.07419390769951,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="062CD1D58F1AFDC62765">
+		<ExtendedData>
+			<Data name="name">
+				<value>1141FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4401362521793,34.07394396843795,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0469EED62B1AFDC62767">
+		<ExtendedData>
+			<Data name="name">
+				<value>1142FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4401433466742,34.07394506378144,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0869F5048B1AFDC62769">
+		<ExtendedData>
+			<Data name="name">
+				<value>1138AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4396827587503,34.07391813721721,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="017D59AB6F1AFDC6276A">
+		<ExtendedData>
+			<Data name="name">
+				<value>1139AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4396756704319,34.07392376349748,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="005D22A6BD1AFDC6276C">
+		<ExtendedData>
+			<Data name="name">
+				<value>1140AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4396833591442,34.0739286687095,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BC8EC0B551AFDC6276D">
+		<ExtendedData>
+			<Data name="name">
+				<value>1155FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4394013410026,34.07423013411556,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0422A212691AFDC6276E">
+		<ExtendedData>
+			<Data name="name">
+				<value>1156FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4394012164726,34.07423611705905,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02C9BA429C1AFDC6276F">
+		<ExtendedData>
+			<Data name="name">
+				<value>1161AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4395702147529,34.07452289359301,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02554232CF1AFDC62770">
+		<ExtendedData>
+			<Data name="name">
+				<value>1159AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4395696926662,34.07451789914867,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FC57249041AFDC62771">
+		<ExtendedData>
+			<Data name="name">
+				<value>1160AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4395633984425,34.07452267643407,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0ED27643E21AFDC62772">
+		<ExtendedData>
+			<Data name="name">
+				<value>1148DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4388490954396,34.07407376380876,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A84AE29FF1AFDC62773">
+		<ExtendedData>
+			<Data name="name">
+				<value>1147DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4388485932686,34.07407245293589,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BBB8625541AFDC62774">
+		<ExtendedData>
+			<Data name="name">
+				<value>1146DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4388484813383,34.07406748992832,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00DA5272D61AFDC62775">
+		<ExtendedData>
+			<Data name="name">
+				<value>1015FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4426288453334,34.0712156277346,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CA4D0CC211AFDC62776">
+		<ExtendedData>
+			<Data name="name">
+				<value>1017FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4426366908732,34.07122422991821,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0434E57BDA1AFDC62778">
+		<ExtendedData>
+			<Data name="name">
+				<value>1006XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4424885583341,34.07106708326546,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F5A9767BE1AFDC62779">
+		<ExtendedData>
+			<Data name="name">
+				<value>1020XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4422381510272,34.07133543949933,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FB1A3336C1AFDC6277A">
+		<ExtendedData>
+			<Data name="name">
+				<value>1018XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4422479784592,34.07122461735716,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0982475E581AFDC6277C">
+		<ExtendedData>
+			<Data name="name">
+				<value>1007XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4422920783328,34.07107276043225,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B40E080601AFDC6277D">
+		<ExtendedData>
+			<Data name="name">
+				<value>1003DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4422013857918,34.07105156202871,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="176E5A098E1AFDC6277D">
+		<ExtendedData>
+			<Data name="name">
+				<value>1004DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4421942013563,34.07105157834353,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0955BFB17A1AFDC6277E">
+		<ExtendedData>
+			<Data name="name">
+				<value>1005DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4421894846385,34.07105163938452,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="062D948DE11AFDC6277F">
+		<ExtendedData>
+			<Data name="name">
+				<value>1008XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4420777481918,34.07107292591242,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F44E8F1D11AFDC62780">
+		<ExtendedData>
+			<Data name="name">
+				<value>1009XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4419871895939,34.07108303825534,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="093CD342751AFDC62781">
+		<ExtendedData>
+			<Data name="name">
+				<value>1012XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4419566750864,34.07118551254301,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="020403FB7C1AFDC62782">
+		<ExtendedData>
+			<Data name="name">
+				<value>1014XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4419884329301,34.07121289629158,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DD13898E91AFDC62783">
+		<ExtendedData>
+			<Data name="name">
+				<value>1023DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4420039256091,34.07135505209339,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07C29FE1C51AFDC62784">
+		<ExtendedData>
+			<Data name="name">
+				<value>1022DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4420030755743,34.07135130721044,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="012D2B39011AFDC62785">
+		<ExtendedData>
+			<Data name="name">
+				<value>1021DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4420027580788,34.07134243096724,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08DEA777231AFDC62786">
+		<ExtendedData>
+			<Data name="name">
+				<value>1013XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4417967338005,34.07119216583891,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08790366F51AFDC62788">
+		<ExtendedData>
+			<Data name="name">
+				<value>1016FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.44168471658,34.07121722765351,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0218442DF91AFDC62789">
+		<ExtendedData>
+			<Data name="name">
+				<value>1019FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4416859498917,34.07123071477817,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="031C79EE0E1AFDC6278B">
+		<ExtendedData>
+			<Data name="name">
+				<value>1034FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4415547363527,34.07154916065975,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08CF1B5B301AFDC6278C">
+		<ExtendedData>
+			<Data name="name">
+				<value>1033FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4415494203447,34.07154776752859,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D85D89B711AFDC6278D">
+		<ExtendedData>
+			<Data name="name">
+				<value>1058AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4411709463814,34.07197875234643,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08DFE42A561AFDC6278E">
+		<ExtendedData>
+			<Data name="name">
+				<value>1052AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4411632037883,34.07196975379777,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="065EA8EA121AFDC6278F">
+		<ExtendedData>
+			<Data name="name">
+				<value>1056AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4411770277564,34.07197213066674,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D9E2C4EFC1AFDC62790">
+		<ExtendedData>
+			<Data name="name">
+				<value>1071AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4412192895018,34.07243156034455,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00C6EE0BFC1AFDC62791">
+		<ExtendedData>
+			<Data name="name">
+				<value>1073AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.441227889109,34.07243207754811,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1F509FA4B91AFDC62791">
+		<ExtendedData>
+			<Data name="name">
+				<value>1072AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4412192895018,34.07243156034455,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0685B784181AFDC62792">
+		<ExtendedData>
+			<Data name="name">
+				<value>1068FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4420638303096,34.0724296785,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0ABC9F5E611AFDC62793">
+		<ExtendedData>
+			<Data name="name">
+				<value>1070FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4420543730252,34.07243109917051,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09B34FEB7E1AFDC62794">
+		<ExtendedData>
+			<Data name="name">
+				<value>1067FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4423102773411,34.07242920719654,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0380B1048C1AFDC62795">
+		<ExtendedData>
+			<Data name="name">
+				<value>1069FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4423198123881,34.07243013835848,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1ABFC2A5AD1AFDC62795">
+		<ExtendedData>
+			<Data name="name">
+				<value>1081FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4426587509056,34.07254044282247,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D728901C71AFDC62796">
+		<ExtendedData>
+			<Data name="name">
+				<value>1082FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4426520168844,34.0725419718306,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="092BE528901AFDC62797">
+		<ExtendedData>
+			<Data name="name">
+				<value>1057FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4426025517341,34.07197456164046,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0024FE993E1AFDC62799">
+		<ExtendedData>
+			<Data name="name">
+				<value>1059FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4425927151215,34.07197947516789,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BA11364F21AFDC6279A">
+		<ExtendedData>
+			<Data name="name">
+				<value>1054FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4422870087186,34.07197083644494,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="038C621B4A1AFDC6279B">
+		<ExtendedData>
+			<Data name="name">
+				<value>1053FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4422933785715,34.07197064125442,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F75052B831AFDC6279C">
+		<ExtendedData>
+			<Data name="name">
+				<value>1051FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4420790597388,34.07196857957972,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0ABC7E6E751AFDC6279D">
+		<ExtendedData>
+			<Data name="name">
+				<value>1055FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4420683869597,34.07197107727387,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="058FC432B01AFDC6279E">
+		<ExtendedData>
+			<Data name="name">
+				<value>1044FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4420667475412,34.07192931287605,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B5ED692991AFDC6279F">
+		<ExtendedData>
+			<Data name="name">
+				<value>1045FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4420570039641,34.07192976743089,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08BD1A5A1B1AFDC627A0">
+		<ExtendedData>
+			<Data name="name">
+				<value>1042FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4422925201583,34.07192824291596,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="091E27F8001AFDC627A1">
+		<ExtendedData>
+			<Data name="name">
+				<value>1043FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.442302796375,34.07192871641442,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05F1A7996F1AFDC627A3">
+		<ExtendedData>
+			<Data name="name">
+				<value>1035FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4426361925585,34.07159204904056,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E8DF729621AFDC627A4">
+		<ExtendedData>
+			<Data name="name">
+				<value>1036FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4426443507001,34.0715924543957,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="056221F6711AFDC627A5">
+		<ExtendedData>
+			<Data name="name">
+				<value>1096DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4415809490523,34.07273627311906,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04499459051AFDC627A7">
+		<ExtendedData>
+			<Data name="name">
+				<value>1095DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4415747307372,34.07273607098896,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BF2A163931AFDC627A8">
+		<ExtendedData>
+			<Data name="name">
+				<value>1094DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4415685555919,34.072735857879,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0EAE9060461AFDC627AA">
+		<ExtendedData>
+			<Data name="name">
+				<value>1126FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4409008568877,34.07340924631067,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C9E3442D21AFDC627AB">
+		<ExtendedData>
+			<Data name="name">
+				<value>1125FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4408991398214,34.07340068002258,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="029A3356501AFDC627AC">
+		<ExtendedData>
+			<Data name="name">
+				<value>1132FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4406647934017,34.07353473303802,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01AE0AF4481AFDC627AD">
+		<ExtendedData>
+			<Data name="name">
+				<value>1133FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4406728643706,34.07353654545342,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02385562B51AFDC627AE">
+		<ExtendedData>
+			<Data name="name">
+				<value>1131FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4387232241543,34.07352313005964,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D288AAEAF1AFDC627AF">
+		<ExtendedData>
+			<Data name="name">
+				<value>1130FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4387333959394,34.07352297769324,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1CEF96B5C41AFDC627AF">
+		<ExtendedData>
+			<Data name="name">
+				<value>1124FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4392900692136,34.07337884763864,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05D66B271E1AFDC627B0">
+		<ExtendedData>
+			<Data name="name">
+				<value>1123FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4392904482992,34.07337270630774,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C6E06A2D11AFDC627B1">
+		<ExtendedData>
+			<Data name="name">
+				<value>1102FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4393058226645,34.07314743400906,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="078A4B259A1AFDC627B2">
+		<ExtendedData>
+			<Data name="name">
+				<value>1104FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4393018003255,34.07315829705555,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1CD11839061AFDC627B2">
+		<ExtendedData>
+			<Data name="name">
+				<value>1129DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4395114224732,34.07345323310739,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B8D107EF21AFDC627B3">
+		<ExtendedData>
+			<Data name="name">
+				<value>1128DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4395114283259,34.07344888448335,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="001635FCB41AFDC627B4">
+		<ExtendedData>
+			<Data name="name">
+				<value>1127DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4395105658049,34.07344418324601,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01AC91145C1AFDC627B5">
+		<ExtendedData>
+			<Data name="name">
+				<value>1101AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4397398397198,34.07305817435019,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1C702832AD1AFDC627B5">
+		<ExtendedData>
+			<Data name="name">
+				<value>1099AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4397433268661,34.07305581475234,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0EAF02B8391AFDC627B6">
+		<ExtendedData>
+			<Data name="name">
+				<value>1100AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4397369737873,34.07305711559742,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05D2B787841AFDC627B7">
+		<ExtendedData>
+			<Data name="name">
+				<value>1117DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4402944256642,34.07327143171626,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="13B9C81D071AFDC627B7">
+		<ExtendedData>
+			<Data name="name">
+				<value>1115DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4402969885372,34.07327069309058,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E17FD30C71AFDC627B8">
+		<ExtendedData>
+			<Data name="name">
+				<value>1116DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4403032216675,34.07327104034166,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07C7A82CEF1AFDC627B9">
+		<ExtendedData>
+			<Data name="name">
+				<value>1097FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4410071591643,34.07285348414253,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A206DA5C51AFDC627BB">
+		<ExtendedData>
+			<Data name="name">
+				<value>1098FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4410004635014,34.07285495772818,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="022A936B561AFDC627BD">
+		<ExtendedData>
+			<Data name="name">
+				<value>1074DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4406830919586,34.07245024093151,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06D6DADC521AFDC627BE">
+		<ExtendedData>
+			<Data name="name">
+				<value>1078DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4406734531816,34.07245211809908,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="059CEA4C351AFDC627BF">
+		<ExtendedData>
+			<Data name="name">
+				<value>1075DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4406666220178,34.07245024800014,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03F320BD0B1AFDC627C1">
+		<ExtendedData>
+			<Data name="name">
+				<value>1077FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.439837704997,34.07245184770247,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CFDF3F5DE1AFDC627C2">
+		<ExtendedData>
+			<Data name="name">
+				<value>1079FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4398240558437,34.07245495468624,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="052D55A7091AFDC627C3">
+		<ExtendedData>
+			<Data name="name">
+				<value>1086FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4395238991319,34.07256515423022,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04A417E94E1AFDC627C5">
+		<ExtendedData>
+			<Data name="name">
+				<value>1083FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4395273495913,34.07255089451782,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05F1D473F21AFDC627C6">
+		<ExtendedData>
+			<Data name="name">
+				<value>1064DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4389869830444,34.07238357106542,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02510E376C1AFDC627C8">
+		<ExtendedData>
+			<Data name="name">
+				<value>1065DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4389927555683,34.07238464620993,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0629C59B011AFDC627C9">
+		<ExtendedData>
+			<Data name="name">
+				<value>1066DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4389976141004,34.07238539067195,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CFBFD42521AFDC627CB">
+		<ExtendedData>
+			<Data name="name">
+				<value>1112AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4389984246882,34.07320725870477,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AEF31D6271AFDC627CC">
+		<ExtendedData>
+			<Data name="name">
+				<value>1110AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4390113707567,34.07320052362608,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D845C89991AFDC627CD">
+		<ExtendedData>
+			<Data name="name">
+				<value>1108AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4390029688693,34.07319632579366,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A84D041471AFDC627CE">
+		<ExtendedData>
+			<Data name="name">
+				<value>1118FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4391010115521,34.07331690912407,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0006E598661AFDC627CF">
+		<ExtendedData>
+			<Data name="name">
+				<value>1119FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4391104615653,34.07331716281701,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06306DBD4D1AFDC627D0">
+		<ExtendedData>
+			<Data name="name">
+				<value>1114FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4388102507354,34.07326107574652,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="077AA3426E1AFDC627D1">
+		<ExtendedData>
+			<Data name="name">
+				<value>1113FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4388118238359,34.07324682895606,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07FFC3D0A01AFDC627D2">
+		<ExtendedData>
+			<Data name="name">
+				<value>1080FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4386486452382,34.07245814233174,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02429788851AFDC627D3">
+		<ExtendedData>
+			<Data name="name">
+				<value>1076FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4386466563004,34.0724505456761,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1BA60B80331AFDC627D3">
+		<ExtendedData>
+			<Data name="name">
+				<value>1090FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4387451613926,34.07260962455396,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="085F86E2F61AFDC627D4">
+		<ExtendedData>
+			<Data name="name">
+				<value>1091FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.438740305123,34.07261087307013,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="088A9F21B81AFDC627D5">
+		<ExtendedData>
+			<Data name="name">
+				<value>1088DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4385406149648,34.07260309085861,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02056DBA141AFDC627D6">
+		<ExtendedData>
+			<Data name="name">
+				<value>1089DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4385339953758,34.07260337937361,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C10DFD0F11AFDC627D7">
+		<ExtendedData>
+			<Data name="name">
+				<value>1087DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4385274207355,34.07260279817433,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00412975771AFDC627D8">
+		<ExtendedData>
+			<Data name="name">
+				<value>1092XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4376189594355,34.07264429257132,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A8AD3029A1AFDC627D9">
+		<ExtendedData>
+			<Data name="name">
+				<value>1093XR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4376068844192,34.07264727602106,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0EB0AE1C731AFDC627DA">
+		<ExtendedData>
+			<Data name="name">
+				<value>1107FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4380140677247,34.07319092676684,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07E5E45D331AFDC627DB">
+		<ExtendedData>
+			<Data name="name">
+				<value>1109FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4380197965878,34.07319939796545,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0828E36E111AFDC627DD">
+		<ExtendedData>
+			<Data name="name">
+				<value>1111XR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4377403629601,34.07320383378691,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C78A253AE1AFDC627DE">
+		<ExtendedData>
+			<Data name="name">
+				<value>1106XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4377409337691,34.07319077872305,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AC9A580651AFDC627DF">
+		<ExtendedData>
+			<Data name="name">
+				<value>1060FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4384861450877,34.07202331420942,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C8FE5DF101AFDC627E0">
+		<ExtendedData>
+			<Data name="name">
+				<value>1061FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.438466847688,34.07202437775504,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FDE597D261AFDC627E1">
+		<ExtendedData>
+			<Data name="name">
+				<value>1039DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4385445337221,34.07172968536191,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="18BB81159F1AFDC627E1">
+		<ExtendedData>
+			<Data name="name">
+				<value>1037DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4385394822551,34.07172520643285,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0EB45510BF1AFDC627E2">
+		<ExtendedData>
+			<Data name="name">
+				<value>1038DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4385221364152,34.0717287275921,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B634751A41AFDC627E3">
+		<ExtendedData>
+			<Data name="name">
+				<value>1040FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4387762961163,34.07174668958653,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04E75DE34A1AFDC627E4">
+		<ExtendedData>
+			<Data name="name">
+				<value>1041FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.438783074657,34.07174767730274,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="124B2C43611AFDC627E4">
+		<ExtendedData>
+			<Data name="name">
+				<value>1027FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4391112073244,34.07142293548024,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02EC1EEE201AFDC627E5">
+		<ExtendedData>
+			<Data name="name">
+				<value>1028FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4391093211925,34.07143067593003,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06CA726FA71AFDC627E6">
+		<ExtendedData>
+			<Data name="name">
+				<value>1010FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4392136851954,34.0711556070476,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0624B1A28A1AFDC627E7">
+		<ExtendedData>
+			<Data name="name">
+				<value>1011FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4392242039182,34.07115682847503,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="025C55E3A41AFDC627E8">
+		<ExtendedData>
+			<Data name="name">
+				<value>1030FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4394539777348,34.07143588406333,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="119E604C861AFDC627E8">
+		<ExtendedData>
+			<Data name="name">
+				<value>1029FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4394580972305,34.07143576119403,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0EFE4619801AFDC627E9">
+		<ExtendedData>
+			<Data name="name">
+				<value>1024DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4397408818887,34.07140602324986,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="010572A1B91AFDC627EA">
+		<ExtendedData>
+			<Data name="name">
+				<value>1026DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4397414469659,34.07140998759274,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07E7F957BA1AFDC627EB">
+		<ExtendedData>
+			<Data name="name">
+				<value>1025DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4397421195318,34.07140942804631,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A7FACD2CC1AFDC627ED">
+		<ExtendedData>
+			<Data name="name">
+				<value>1049FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4397618927102,34.07194556608513,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04B6437BB31AFDC627EE">
+		<ExtendedData>
+			<Data name="name">
+				<value>1050FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4397502050845,34.07194637615023,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="052DD62E5C1AFDC627EF">
+		<ExtendedData>
+			<Data name="name">
+				<value>1062FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.439237716913,34.07203267777544,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0551BE79DF1AFDC627F0">
+		<ExtendedData>
+			<Data name="name">
+				<value>1063FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4392330704813,34.07203269261013,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00C40F15831AFDC627F1">
+		<ExtendedData>
+			<Data name="name">
+				<value>1047DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4406977471994,34.0719418449625,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03A30B33591AFDC627F2">
+		<ExtendedData>
+			<Data name="name">
+				<value>1046DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4406794151153,34.07194089415152,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1837612D7F1AFDC627F2">
+		<ExtendedData>
+			<Data name="name">
+				<value>1048DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.440672779035,34.07194311332125,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B3158CBED1AFDC627F3">
+		<ExtendedData>
+			<Data name="name">
+				<value>1032FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4408890962503,34.07146903424482,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D017E72771AFDC627F4">
+		<ExtendedData>
+			<Data name="name">
+				<value>1031FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4408891999398,34.07145978151566,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="013EC7F22E1AFDC627F5">
+		<ExtendedData>
+			<Data name="name">
+				<value>1001FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4411545970978,34.07102018436129,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1F5B05B0791AFDC627F5">
+		<ExtendedData>
+			<Data name="name">
+				<value>1002FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.441148575218,34.07102101206665,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CFAA0A8031AFDC627F6">
+		<ExtendedData>
+			<Data name="name">
+				<value>2017FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4454373411945,34.06983772488947,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05037425161AFDC627F7">
+		<ExtendedData>
+			<Data name="name">
+				<value>2019FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4454290671542,34.06983899889339,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DD951C3181AFDC627F8">
+		<ExtendedData>
+			<Data name="name">
+				<value>2022FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4448551615498,34.06984187553311,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1DDBB37E4D1AFDC627F8">
+		<ExtendedData>
+			<Data name="name">
+				<value>2020FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4448476434267,34.06984129234822,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BD97C5AF01AFDC627F9">
+		<ExtendedData>
+			<Data name="name">
+				<value>2025FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.444724896551,34.0698471118621,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0214F3CEE01AFDC627FA">
+		<ExtendedData>
+			<Data name="name">
+				<value>2026FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4447213415599,34.06984864163786,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A1CC713AE1AFDC627FB">
+		<ExtendedData>
+			<Data name="name">
+				<value>2012FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4437486463454,34.0698098916333,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09BFE1FB061AFDC627FC">
+		<ExtendedData>
+			<Data name="name">
+				<value>2013FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4437480776233,34.06981244534109,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0576F72A9C1AFDC627FE">
+		<ExtendedData>
+			<Data name="name">
+				<value>2015FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4474511461719,34.06982131536567,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="039C8235651AFDC627FF">
+		<ExtendedData>
+			<Data name="name">
+				<value>2014FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4474580808203,34.06981871436282,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="046AA753EE1AFDC62800">
+		<ExtendedData>
+			<Data name="name">
+				<value>2016FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4478828923463,34.06983201856357,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1535B884A81AFDC62800">
+		<ExtendedData>
+			<Data name="name">
+				<value>2018FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4478739629161,34.06983808389139,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B4EBDD66D1AFDC62801">
+		<ExtendedData>
+			<Data name="name">
+				<value>2032AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4475410595396,34.07003095932235,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0727A296CF1AFDC62802">
+		<ExtendedData>
+			<Data name="name">
+				<value>2034AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4475379801984,34.07003741027963,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BC5F569D61AFDC62803">
+		<ExtendedData>
+			<Data name="name">
+				<value>2033AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4475333597303,34.07003461259942,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1076D8601C1AFDC62803">
+		<ExtendedData>
+			<Data name="name">
+				<value>2023FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.44707752414,34.06984512348649,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F0732D0E71AFDC62804">
+		<ExtendedData>
+			<Data name="name">
+				<value>2024FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4470728757609,34.06984529595066,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00DDDC32251AFDC62805">
+		<ExtendedData>
+			<Data name="name">
+				<value>2021LR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4466834366322,34.06984181235926,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A70546F131AFDC62806">
+		<ExtendedData>
+			<Data name="name">
+				<value>2027LL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4465621679876,34.06984989413851,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="173AFFCEF51AFDC62806">
+		<ExtendedData>
+			<Data name="name">
+				<value>2028FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.446470411297,34.06985085224782,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B67B6E4171AFDC62807">
+		<ExtendedData>
+			<Data name="name">
+				<value>2029FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4464374304263,34.06985908575855,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="025F4D4B7A1AFDC62808">
+		<ExtendedData>
+			<Data name="name">
+				<value>2008XR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4461670332156,34.06948130898245,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="034B13EFE11AFDC62809">
+		<ExtendedData>
+			<Data name="name">
+				<value>2009XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4461670332156,34.06948130898245,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1970443FC01AFDC62809">
+		<ExtendedData>
+			<Data name="name">
+				<value>2004XR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4461658227807,34.06888745837124,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0199D616291AFDC6280A">
+		<ExtendedData>
+			<Data name="name">
+				<value>2003XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4461685368293,34.06888665675648,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F7B81FF041AFDC6280B">
+		<ExtendedData>
+			<Data name="name">
+				<value>2001FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4451449969022,34.06860964492716,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1AC41E26641AFDC6280B">
+		<ExtendedData>
+			<Data name="name">
+				<value>2002FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.445137754803,34.0686158372555,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FB2D48DB51AFDC6280D">
+		<ExtendedData>
+			<Data name="name">
+				<value>2011XR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4453707789165,34.06950492469575,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A5B2EA7091AFDC6280E">
+		<ExtendedData>
+			<Data name="name">
+				<value>2010XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.445371265574,34.06950328530839,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06F2F611091AFDC6280F">
+		<ExtendedData>
+			<Data name="name">
+				<value>2007XR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.445438148812,34.06909143586505,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02A64177D31AFDC62810">
+		<ExtendedData>
+			<Data name="name">
+				<value>2030FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4456954546425,34.06997263806097,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="13D5E845EC1AFDC62810">
+		<ExtendedData>
+			<Data name="name">
+				<value>2031FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4456945770054,34.06998048926737,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FD17424451AFDC62811">
+		<ExtendedData>
+			<Data name="name">
+				<value>2035AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4458944413929,34.07004149814835,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AD89A89621AFDC62812">
+		<ExtendedData>
+			<Data name="name">
+				<value>2037AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.445893822691,34.07004659588417,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="128CE3AA1F1AFDC62812">
+		<ExtendedData>
+			<Data name="name">
+				<value>2036AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4458944413929,34.07004149814835,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="042F52A11C1AFDC62813">
+		<ExtendedData>
+			<Data name="name">
+				<value>2038FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4458358598615,34.07022303613947,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F1C23D9251AFDC62814">
+		<ExtendedData>
+			<Data name="name">
+				<value>2039FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4458358598615,34.07022303613947,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="013861DB9F1AFDC62815">
+		<ExtendedData>
+			<Data name="name">
+				<value>2044FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4458489243255,34.07053503784006,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="13DEE9BD921AFDC62815">
+		<ExtendedData>
+			<Data name="name">
+				<value>2045FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4458398606716,34.070535848385,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="072B9A3B061AFDC62816">
+		<ExtendedData>
+			<Data name="name">
+				<value>2040FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.445647016883,34.07051354251083,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F5F479CF31AFDC62817">
+		<ExtendedData>
+			<Data name="name">
+				<value>2041FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.445647016883,34.07051354251083,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05636DCF951AFDC62818">
+		<ExtendedData>
+			<Data name="name">
+				<value>2042FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4452261560093,34.07052001330363,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="060C54CDE41AFDC62819">
+		<ExtendedData>
+			<Data name="name">
+				<value>2043FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4452237293055,34.07053049460552,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="178F20019E1AFDC62819">
+		<ExtendedData>
+			<Data name="name">
+				<value>2050XC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4448289996126,34.07079003166727,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A6511536B1AFDC6281A">
+		<ExtendedData>
+			<Data name="name">
+				<value>2052XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4448292577995,34.07079031143765,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0453BE16471AFDC6281B">
+		<ExtendedData>
+			<Data name="name">
+				<value>2051XR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4448289996126,34.07079003166727,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="177E7D44D81AFDC6281B">
+		<ExtendedData>
+			<Data name="name">
+				<value>2085FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4450475477418,34.071081583333,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AE58320621AFDC6281C">
+		<ExtendedData>
+			<Data name="name">
+				<value>2086FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4450427178342,34.07108601788428,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02E735AF9A1AFDC6281D">
+		<ExtendedData>
+			<Data name="name">
+				<value>2094FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.444645825122,34.07120245501955,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00F63555911AFDC6281F">
+		<ExtendedData>
+			<Data name="name">
+				<value>2095FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.444645825122,34.07120245501955,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="001739BE0C1AFDC62820">
+		<ExtendedData>
+			<Data name="name">
+				<value>2084AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4445507952936,34.07105197290422,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="17642A281B1AFDC62820">
+		<ExtendedData>
+			<Data name="name">
+				<value>2082AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4445488947577,34.07104852775048,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0820292DB41AFDC62821">
+		<ExtendedData>
+			<Data name="name">
+				<value>2083AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4445450541334,34.07104920711348,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D2778D5031AFDC62822">
+		<ExtendedData>
+			<Data name="name">
+				<value>2061FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4445566704078,34.07092081338912,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E298AE60F1AFDC62823">
+		<ExtendedData>
+			<Data name="name">
+				<value>2062FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4445572873732,34.07094306341618,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="10C68E948F1AFDC62823">
+		<ExtendedData>
+			<Data name="name">
+				<value>2066FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4451823570384,34.07097869137844,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F4ACD82651AFDC62824">
+		<ExtendedData>
+			<Data name="name">
+				<value>2067FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4451823570384,34.07097869137844,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CC28D003F1AFDC62825">
+		<ExtendedData>
+			<Data name="name">
+				<value>2063FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4453929067579,34.07097337984025,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="11E7E83CCB1AFDC62825">
+		<ExtendedData>
+			<Data name="name">
+				<value>2064FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4453967540268,34.07097523297168,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D85D272AF1AFDC62826">
+		<ExtendedData>
+			<Data name="name">
+				<value>2092FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4449121902094,34.07117833966078,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0075F3F93D1AFDC62828">
+		<ExtendedData>
+			<Data name="name">
+				<value>2093FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4449127621443,34.07118508450836,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04295867871AFDC6282A">
+		<ExtendedData>
+			<Data name="name">
+				<value>2069FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4442551805124,34.07098752992316,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01F927DB071AFDC6282C">
+		<ExtendedData>
+			<Data name="name">
+				<value>2070FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4442551805124,34.07098752992316,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0510D43ECA1AFDC6282D">
+		<ExtendedData>
+			<Data name="name">
+				<value>2072FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4439128430114,34.07100139814545,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A2A1A40481AFDC6282F">
+		<ExtendedData>
+			<Data name="name">
+				<value>2071FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4439268259595,34.0709984263035,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="003420F58C1AFDC62831">
+		<ExtendedData>
+			<Data name="name">
+				<value>2059FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4436579203453,34.07091155327782,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0874C1DEC31AFDC62832">
+		<ExtendedData>
+			<Data name="name">
+				<value>2060FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4436579203453,34.07091155327782,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1EB83968851AFDC62832">
+		<ExtendedData>
+			<Data name="name">
+				<value>2089DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4436086148962,34.07112480056377,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E05407E961AFDC62833">
+		<ExtendedData>
+			<Data name="name">
+				<value>2087DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.443610067471,34.07111878541374,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08B220C19D1AFDC62834">
+		<ExtendedData>
+			<Data name="name">
+				<value>2090FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4432112221226,34.0711364608435,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="098F68A7C01AFDC62835">
+		<ExtendedData>
+			<Data name="name">
+				<value>2091FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4432112221226,34.0711364608435,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FB58913E41AFDC62836">
+		<ExtendedData>
+			<Data name="name">
+				<value>2096FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4436743930697,34.07124984997647,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="12A576836B1AFDC62836">
+		<ExtendedData>
+			<Data name="name">
+				<value>2097FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4436755725967,34.07127589467562,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="022794C4AC1AFDC62837">
+		<ExtendedData>
+			<Data name="name">
+				<value>2088DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.443610067471,34.07111878541374,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08D503847E1AFDC62838">
+		<ExtendedData>
+			<Data name="name">
+				<value>2100FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4436704261416,34.0715518032176,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="012C84EC531AFDC62839">
+		<ExtendedData>
+			<Data name="name">
+				<value>2101FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4436741700317,34.07155347722188,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0ADB574E971AFDC6283A">
+		<ExtendedData>
+			<Data name="name">
+				<value>2104AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4436868388746,34.07186363894663,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="015DE2B9B61AFDC6283B">
+		<ExtendedData>
+			<Data name="name">
+				<value>2105AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4436868388746,34.07186363894663,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00FEA4E3E31AFDC6283D">
+		<ExtendedData>
+			<Data name="name">
+				<value>2107AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4436774145866,34.07186652007315,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="060736FD541AFDC6283E">
+		<ExtendedData>
+			<Data name="name">
+				<value>2114FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4440246464333,34.07248888926193,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0947921B701AFDC62840">
+		<ExtendedData>
+			<Data name="name">
+				<value>2115FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4440170530095,34.07249043117167,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00B89D199A1AFDC62841">
+		<ExtendedData>
+			<Data name="name">
+				<value>2111FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4442540754142,34.07188258308155,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04A0ECDCB61AFDC62843">
+		<ExtendedData>
+			<Data name="name">
+				<value>2110FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4442477038529,34.0718823538725,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C34AEA1C01AFDC62845">
+		<ExtendedData>
+			<Data name="name">
+				<value>2116FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4449297365756,34.07260832029697,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0136E665A81AFDC62846">
+		<ExtendedData>
+			<Data name="name">
+				<value>2117FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4449351675886,34.07261180176248,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="053137FF851AFDC62847">
+		<ExtendedData>
+			<Data name="name">
+				<value>2106DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4445060857397,34.07186391441503,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E04A0E0541AFDC62848">
+		<ExtendedData>
+			<Data name="name">
+				<value>2108DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4445019189375,34.07187246272617,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0768265DB51AFDC62849">
+		<ExtendedData>
+			<Data name="name">
+				<value>2109DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4445013095597,34.07187503004025,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05418E3AEF1AFDC6284A">
+		<ExtendedData>
+			<Data name="name">
+				<value>2102FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4446637454936,34.07176724199743,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0251719D7F1AFDC6284B">
+		<ExtendedData>
+			<Data name="name">
+				<value>2103FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4446725143956,34.07176750824799,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FF89893AE1AFDC6284C">
+		<ExtendedData>
+			<Data name="name">
+				<value>2098FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4445024532552,34.0715316682078,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0161A29F481AFDC6284D">
+		<ExtendedData>
+			<Data name="name">
+				<value>2099FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4445031583753,34.07154320723478,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A89FB14F01AFDC6284F">
+		<ExtendedData>
+			<Data name="name">
+				<value>2113FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4430045123611,34.07221971828894,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C0B1633BF1AFDC62851">
+		<ExtendedData>
+			<Data name="name">
+				<value>2112FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4430034904147,34.07217505322721,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04F151F3C71AFDC62852">
+		<ExtendedData>
+			<Data name="name">
+				<value>2129FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4440981596548,34.07379943132443,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F647346031AFDC62853">
+		<ExtendedData>
+			<Data name="name">
+				<value>2130FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4440874256596,34.07380364743136,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09AE9B64A61AFDC62854">
+		<ExtendedData>
+			<Data name="name">
+				<value>2131DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4438018165103,34.07380396042958,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="037F2A603C1AFDC62855">
+		<ExtendedData>
+			<Data name="name">
+				<value>2132DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4438018165103,34.07380396042958,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="028B2AF81A1AFDC62856">
+		<ExtendedData>
+			<Data name="name">
+				<value>2128DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4437996052145,34.07379511614745,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01C33537301AFDC62858">
+		<ExtendedData>
+			<Data name="name">
+				<value>2126FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4435320768717,34.07374373283766,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B4A2F9B761AFDC62859">
+		<ExtendedData>
+			<Data name="name">
+				<value>2127FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4435320768717,34.07374373283766,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="047C6989FD1AFDC6285A">
+		<ExtendedData>
+			<Data name="name">
+				<value>2124AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4437546821291,34.07333319572211,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BD14D1C3C1AFDC6285B">
+		<ExtendedData>
+			<Data name="name">
+				<value>2123AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4437572503086,34.07332851259497,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DCA0878471AFDC6285D">
+		<ExtendedData>
+			<Data name="name">
+				<value>2125AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4437546821291,34.07333319572211,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="016BE7CE461AFDC6285F">
+		<ExtendedData>
+			<Data name="name">
+				<value>2119FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4435450085226,34.07275215101847,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F4D724C4D1AFDC62861">
+		<ExtendedData>
+			<Data name="name">
+				<value>2118FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4435447540982,34.0727392940433,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05FEF535A21AFDC62862">
+		<ExtendedData>
+			<Data name="name">
+				<value>2122AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4436611813948,34.07288568483762,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06F32E72021AFDC62864">
+		<ExtendedData>
+			<Data name="name">
+				<value>2120AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4436662757712,34.0728817675211,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0EABE370091AFDC62865">
+		<ExtendedData>
+			<Data name="name">
+				<value>2121AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4436662757712,34.0728817675211,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F7728CBA31AFDC62866">
+		<ExtendedData>
+			<Data name="name">
+				<value>2133FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4506268261789,34.07521975695866,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05E2EA80DC1AFDC62868">
+		<ExtendedData>
+			<Data name="name">
+				<value>2134FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.450621084572,34.07522736646601,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02E5403CC11AFDC6286A">
+		<ExtendedData>
+			<Data name="name">
+				<value>2080FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4493982494007,34.07101824793376,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="048B70A3041AFDC6286B">
+		<ExtendedData>
+			<Data name="name">
+				<value>2078FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4493945957398,34.0710152058216,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0061A5B85D1AFDC6286D">
+		<ExtendedData>
+			<Data name="name">
+				<value>2048FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.448721912709,34.07071085907734,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04D82FC92B1AFDC6286F">
+		<ExtendedData>
+			<Data name="name">
+				<value>2049FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4487176296189,34.07071854461017,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B2E5F5A7F1AFDC62871">
+		<ExtendedData>
+			<Data name="name">
+				<value>2076FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4474696367766,34.07101390427863,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0884B0A6F41AFDC62873">
+		<ExtendedData>
+			<Data name="name">
+				<value>2075FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4474647986355,34.07101124431135,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07D249E8481AFDC62875">
+		<ExtendedData>
+			<Data name="name">
+				<value>2054FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4475438852893,34.07082444107339,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="050495D5461AFDC62877">
+		<ExtendedData>
+			<Data name="name">
+				<value>2053FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4475454619758,34.07081706214676,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="034653A44A1AFDC62878">
+		<ExtendedData>
+			<Data name="name">
+				<value>2057FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4474009650423,34.0708883309295,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02E40825921AFDC6287A">
+		<ExtendedData>
+			<Data name="name">
+				<value>2058FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4473707940572,34.07089571468294,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05F88816F61AFDC6287C">
+		<ExtendedData>
+			<Data name="name">
+				<value>2068FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4470434400532,34.07097970343577,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0668D250371AFDC6287D">
+		<ExtendedData>
+			<Data name="name">
+				<value>2065FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4470318032743,34.07097862521292,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02C11D752C1AFDC62880">
+		<ExtendedData>
+			<Data name="name">
+				<value>2074FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4465015410724,34.07101066635749,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E72AF443F1AFDC62883">
+		<ExtendedData>
+			<Data name="name">
+				<value>2073FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4464957521505,34.07100848725583,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01A5FC20BA1AFDC62884">
+		<ExtendedData>
+			<Data name="name">
+				<value>2077DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4461909662928,34.0710145524237,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C4EB5C36D1AFDC62886">
+		<ExtendedData>
+			<Data name="name">
+				<value>2081DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.446176034189,34.07101867230462,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07D19D4EDA1AFDC62888">
+		<ExtendedData>
+			<Data name="name">
+				<value>2079DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4461799507496,34.07101778634591,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B75C989A01AFDC62889">
+		<ExtendedData>
+			<Data name="name">
+				<value>2056FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4461520326602,34.07088022406391,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0421C752D81AFDC6288B">
+		<ExtendedData>
+			<Data name="name">
+				<value>2055FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.446150119284,34.07087544527623,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="002BF558D31AFDC6288D">
+		<ExtendedData>
+			<Data name="name">
+				<value>2047FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4459986950738,34.07064924667755,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="007F18814A1AFDC6288F">
+		<ExtendedData>
+			<Data name="name">
+				<value>2046FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4459957015705,34.07063710392669,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E2A5A72641AFDC62891">
+		<ExtendedData>
+			<Data name="name">
+				<value>2005FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4482332633878,34.06890278661772,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05DF9CA5DF1AFDC62896">
+		<ExtendedData>
+			<Data name="name">
+				<value>2006FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.448208829944,34.06891036913233,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05658F82EE1AFDC62897">
+		<ExtendedData>
+			<Data name="name">
+				<value>3116FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4442208636848,34.0695899934169,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00494900C61AFDC62899">
+		<ExtendedData>
+			<Data name="name">
+				<value>3115FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4442312929004,34.06958959402144,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B60C57EEE1AFDC6289B">
+		<ExtendedData>
+			<Data name="name">
+				<value>3118FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4434923450634,34.06973863777571,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09898D33A71AFDC6289C">
+		<ExtendedData>
+			<Data name="name">
+				<value>3117FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4434920603168,34.06973216903975,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05A55E69541AFDC6289E">
+		<ExtendedData>
+			<Data name="name">
+				<value>3125DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4431260595724,34.06979963615219,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0990B878D71AFDC628A0">
+		<ExtendedData>
+			<Data name="name">
+				<value>3123DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4431333104912,34.06979623150884,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06767D6C9D1AFDC628A6">
+		<ExtendedData>
+			<Data name="name">
+				<value>3124DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4431388918079,34.06979856269029,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01A8108B6A1AFDC628AD">
+		<ExtendedData>
+			<Data name="name">
+				<value>3128DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4425725180685,34.06994995378694,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F982C86461AFDC628AF">
+		<ExtendedData>
+			<Data name="name">
+				<value>3130DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4425705898415,34.06995169062376,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07FFC4A1231AFDC628B1">
+		<ExtendedData>
+			<Data name="name">
+				<value>3129DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4425642747706,34.06995090733032,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0331F5D9581AFDC628B6">
+		<ExtendedData>
+			<Data name="name">
+				<value>3121FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4417564457707,34.06979377545922,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="013F33DACB1AFDC628B8">
+		<ExtendedData>
+			<Data name="name">
+				<value>3122FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4417389687396,34.06979425885245,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="070DBC41DA1AFDC628B9">
+		<ExtendedData>
+			<Data name="name">
+				<value>3119FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4416330039761,34.06978788132724,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01B509AEA81AFDC628BB">
+		<ExtendedData>
+			<Data name="name">
+				<value>3120FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4416112425195,34.06978893171353,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="039127D3A91AFDC628BD">
+		<ExtendedData>
+			<Data name="name">
+				<value>3131XL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4416390558306,34.07005789897808,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01852334D91AFDC628BE">
+		<ExtendedData>
+			<Data name="name">
+				<value>3126FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4405235958931,34.06989540868284,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07F1ADB8C61AFDC628C0">
+		<ExtendedData>
+			<Data name="name">
+				<value>3127FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4405080813924,34.06989858562005,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="038DDB70EB1AFDC628C1">
+		<ExtendedData>
+			<Data name="name">
+				<value>3132FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4408815721361,34.07023393021662,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01104716E31AFDC628C3">
+		<ExtendedData>
+			<Data name="name">
+				<value>3133FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4408925733549,34.07024475712946,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DDD47CD721AFDC628C7">
+		<ExtendedData>
+			<Data name="name">
+				<value>3136FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4407420530025,34.07070871573779,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0EA17750BA1AFDC628C9">
+		<ExtendedData>
+			<Data name="name">
+				<value>3137FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4407422715168,34.07071189368042,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02EF5013AC1AFDC628CB">
+		<ExtendedData>
+			<Data name="name">
+				<value>3143AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4429267426975,34.07094885648426,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0019191A6F1AFDC628CC">
+		<ExtendedData>
+			<Data name="name">
+				<value>3141AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4429222911115,34.07094258114622,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08338A72F31AFDC628CE">
+		<ExtendedData>
+			<Data name="name">
+				<value>3142AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4429222911115,34.07094258114622,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F7346412A1AFDC628D0">
+		<ExtendedData>
+			<Data name="name">
+				<value>3104FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4446139881162,34.06917046509093,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03509770071AFDC628D2">
+		<ExtendedData>
+			<Data name="name">
+				<value>3105FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4446067326529,34.06918172171532,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03F1145AED1AFDC628D6">
+		<ExtendedData>
+			<Data name="name">
+				<value>3098FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4445206477391,34.06900513549668,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06FCF73A9B1AFDC628E1">
+		<ExtendedData>
+			<Data name="name">
+				<value>3100FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4445133786738,34.06901444207637,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06F508256A1AFDC628E3">
+		<ExtendedData>
+			<Data name="name">
+				<value>3093DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4430544046588,34.06895677048904,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D92A988B31AFDC628E6">
+		<ExtendedData>
+			<Data name="name">
+				<value>3094DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4430384342683,34.06898320984746,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="098DD699961AFDC628EA">
+		<ExtendedData>
+			<Data name="name">
+				<value>3095DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4430324887184,34.06898511415141,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0557E4BC141AFDC628EC">
+		<ExtendedData>
+			<Data name="name">
+				<value>3087FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4425284455992,34.06845031422237,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="012108EEC81AFDC628ED">
+		<ExtendedData>
+			<Data name="name">
+				<value>3086FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.442528498905,34.06844083799938,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01EE5D63BD1AFDC628EF">
+		<ExtendedData>
+			<Data name="name">
+				<value>3066FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4425726377645,34.06745637809225,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01099A284E1AFDC628F0">
+		<ExtendedData>
+			<Data name="name">
+				<value>3065FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.442574688152,34.06741565427868,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="070B49BD371AFDC628F2">
+		<ExtendedData>
+			<Data name="name">
+				<value>3064FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4421952398303,34.06733763804667,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="017733EC3C1AFDC628F5">
+		<ExtendedData>
+			<Data name="name">
+				<value>3063FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4421861704321,34.06733680317753,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="043FD2765F1AFDC628F7">
+		<ExtendedData>
+			<Data name="name">
+				<value>3075DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4419175879168,34.06752194850137,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09A8C9AFB01AFDC628F9">
+		<ExtendedData>
+			<Data name="name">
+				<value>3074DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4419127285645,34.06751147227469,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DFC4B513C1AFDC628FA">
+		<ExtendedData>
+			<Data name="name">
+				<value>3073DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4418966227073,34.06749541383066,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05D2C703C91AFDC628FC">
+		<ExtendedData>
+			<Data name="name">
+				<value>3091FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4419290290233,34.06861302271053,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0317C879FD1AFDC628FD">
+		<ExtendedData>
+			<Data name="name">
+				<value>3092FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4419336838256,34.06864599819752,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DB021F0881AFDC628FE">
+		<ExtendedData>
+			<Data name="name">
+				<value>3099FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4419306844067,34.06900800723044,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05CA9F20921AFDC628FF">
+		<ExtendedData>
+			<Data name="name">
+				<value>3101FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.441937780126,34.0690154235958,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="020E90F90E1AFDC62900">
+		<ExtendedData>
+			<Data name="name">
+				<value>3097FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4421554001424,34.06898615822912,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E67D811E41AFDC62901">
+		<ExtendedData>
+			<Data name="name">
+				<value>3096FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4421673592218,34.06898567239458,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08F24FB0B41AFDC62902">
+		<ExtendedData>
+			<Data name="name">
+				<value>3112DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4419384466815,34.06928990581306,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="056DD51C4A1AFDC62903">
+		<ExtendedData>
+			<Data name="name">
+				<value>3109DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4419423163925,34.0692740946028,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03DA6999EA1AFDC62904">
+		<ExtendedData>
+			<Data name="name">
+				<value>3108DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4419351456458,34.06927094656259,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1D6C09D6761AFDC62904">
+		<ExtendedData>
+			<Data name="name">
+				<value>3114FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4418408177969,34.0694490675453,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00C06534671AFDC62905">
+		<ExtendedData>
+			<Data name="name">
+				<value>3113FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4418668416097,34.0694469542148,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BAD11CEF61AFDC62906">
+		<ExtendedData>
+			<Data name="name">
+				<value>3103FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4425362990511,34.0691558978675,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A25C000691AFDC62908">
+		<ExtendedData>
+			<Data name="name">
+				<value>3102FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4425573464289,34.069116485989,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07255C19741AFDC62909">
+		<ExtendedData>
+			<Data name="name">
+				<value>3088AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4425197152043,34.06858072302263,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="037222865A1AFDC6290A">
+		<ExtendedData>
+			<Data name="name">
+				<value>3089AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4425148308415,34.06858197721409,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1338A3304A1AFDC6290A">
+		<ExtendedData>
+			<Data name="name">
+				<value>3090AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4425194294732,34.06858202373151,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F9188108C1AFDC6290B">
+		<ExtendedData>
+			<Data name="name">
+				<value>3056FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4453816028828,34.06660215192034,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06BACBF51F1AFDC6290C">
+		<ExtendedData>
+			<Data name="name">
+				<value>3055FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4453739520925,34.06660194980788,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0619407B331AFDC6290D">
+		<ExtendedData>
+			<Data name="name">
+				<value>3043FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4455550703143,34.06563441932839,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CEEB23DAC1AFDC6290E">
+		<ExtendedData>
+			<Data name="name">
+				<value>3044FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4455464397059,34.06563454085594,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1E5027D61E1AFDC6290E">
+		<ExtendedData>
+			<Data name="name">
+				<value>3009FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4456160813704,34.0641472344042,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02D09D76DD1AFDC6290F">
+		<ExtendedData>
+			<Data name="name">
+				<value>3010FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4456160813704,34.0641472344042,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04248BE3901AFDC62910">
+		<ExtendedData>
+			<Data name="name">
+				<value>3003FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4464093918171,34.06388153056142,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="043867D3141AFDC62911">
+		<ExtendedData>
+			<Data name="name">
+				<value>3004FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4463968582221,34.06388158879276,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="059136A2931AFDC62912">
+		<ExtendedData>
+			<Data name="name">
+				<value>3011AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4469717947762,34.06415228771284,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FBEB840641AFDC62913">
+		<ExtendedData>
+			<Data name="name">
+				<value>3012AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4469797821749,34.06415754792748,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AE4960AAB1AFDC62914">
+		<ExtendedData>
+			<Data name="name">
+				<value>3013AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.446974640351,34.06415878209697,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FE5E457DE1AFDC62915">
+		<ExtendedData>
+			<Data name="name">
+				<value>3001FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4479818190283,34.06376280222211,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0813165A701AFDC62916">
+		<ExtendedData>
+			<Data name="name">
+				<value>3002FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4479818190283,34.06376280222211,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="068172FDEF1AFDC62918">
+		<ExtendedData>
+			<Data name="name">
+				<value>3050FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4474345938121,34.06588383860266,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="026AE64F4F1AFDC62919">
+		<ExtendedData>
+			<Data name="name">
+				<value>3049FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4474545523607,34.06588120675753,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="003B629C3D1AFDC6291A">
+		<ExtendedData>
+			<Data name="name">
+				<value>3053FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4474085266977,34.06615794331878,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01EA4080C61AFDC6291B">
+		<ExtendedData>
+			<Data name="name">
+				<value>3054FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4474063909518,34.06616560706442,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05448319D41AFDC6291C">
+		<ExtendedData>
+			<Data name="name">
+				<value>3110FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4447985013864,34.06927674686693,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04888FC1A01AFDC6291D">
+		<ExtendedData>
+			<Data name="name">
+				<value>3111FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4447985013864,34.06927674686693,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1B4FD852101AFDC6291D">
+		<ExtendedData>
+			<Data name="name">
+				<value>3078FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4447091234814,34.06782282498553,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09A7EB19FA1AFDC6291E">
+		<ExtendedData>
+			<Data name="name">
+				<value>3079FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.444709725411,34.06782464015497,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="089B9050861AFDC6291F">
+		<ExtendedData>
+			<Data name="name">
+				<value>3061FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4449130026549,34.06715786729313,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F1DEA50F91AFDC62920">
+		<ExtendedData>
+			<Data name="name">
+				<value>3062FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.444921207979,34.06715806292382,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D04D34E241AFDC62921">
+		<ExtendedData>
+			<Data name="name">
+				<value>3047FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4451625754559,34.06573230517773,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="003D8CD62A1AFDC62922">
+		<ExtendedData>
+			<Data name="name">
+				<value>3048FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4451625424041,34.06573658596594,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A99410F641AFDC62923">
+		<ExtendedData>
+			<Data name="name">
+				<value>3032FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4451822429417,34.06523385022619,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AB800FDAD1AFDC62924">
+		<ExtendedData>
+			<Data name="name">
+				<value>3031FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4451907730927,34.06523336252448,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0251892E241AFDC62925">
+		<ExtendedData>
+			<Data name="name">
+				<value>3019FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4451841967152,34.0648086395535,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03B27AE7131AFDC62926">
+		<ExtendedData>
+			<Data name="name">
+				<value>3018FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4451919941647,34.06480824168089,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03FECF83981AFDC62927">
+		<ExtendedData>
+			<Data name="name">
+				<value>3005HR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4452055199393,34.06388647787145,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0150B100D21AFDC62929">
+		<ExtendedData>
+			<Data name="name">
+				<value>3006HC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4452143577565,34.06388666845328,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="024ED859581AFDC6292A">
+		<ExtendedData>
+			<Data name="name">
+				<value>3007FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4442430976859,34.06388814457538,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FE2FF008A1AFDC6292B">
+		<ExtendedData>
+			<Data name="name">
+				<value>3008FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4442362446366,34.06388930266367,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="005C510DE81AFDC6292C">
+		<ExtendedData>
+			<Data name="name">
+				<value>3015FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4423959333692,34.06420433232598,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0ED22ECF1F1AFDC6292D">
+		<ExtendedData>
+			<Data name="name">
+				<value>3014FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4423940011221,34.06419861652806,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1D7565FD251AFDC6292D">
+		<ExtendedData>
+			<Data name="name">
+				<value>3039FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4417172738248,34.06551760636316,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E19A5A4B01AFDC6292E">
+		<ExtendedData>
+			<Data name="name">
+				<value>3040FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4417172738248,34.06551760636316,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F327C69EA1AFDC6292F">
+		<ExtendedData>
+			<Data name="name">
+				<value>3052FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4418755129971,34.06607248415756,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03C603DC871AFDC62930">
+		<ExtendedData>
+			<Data name="name">
+				<value>3051FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4418754272961,34.06606871798306,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="001F750B071AFDC62932">
+		<ExtendedData>
+			<Data name="name">
+				<value>3059FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4413595567225,34.06710370576432,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1E40DDC0AA1AFDC62932">
+		<ExtendedData>
+			<Data name="name">
+				<value>3060FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4413673714841,34.0671044759075,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B647E521B1AFDC62933">
+		<ExtendedData>
+			<Data name="name">
+				<value>3084FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4402313025174,34.06838260267379,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C6082D85E1AFDC62934">
+		<ExtendedData>
+			<Data name="name">
+				<value>3085FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4402313025174,34.06838260267379,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02435156081AFDC62935">
+		<ExtendedData>
+			<Data name="name">
+				<value>3083FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4402802464208,34.06798726475,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B578AEB311AFDC62936">
+		<ExtendedData>
+			<Data name="name">
+				<value>3082FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4402865806999,34.06798632543086,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="021D828B531AFDC62937">
+		<ExtendedData>
+			<Data name="name">
+				<value>3080FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4405696844627,34.06793924977537,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A2314D89C1AFDC62938">
+		<ExtendedData>
+			<Data name="name">
+				<value>3081FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4405696567849,34.06794548847078,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="082A875DE61AFDC6293A">
+		<ExtendedData>
+			<Data name="name">
+				<value>3107FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4405373647971,34.0692469579142,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03FEFDA4161AFDC6293B">
+		<ExtendedData>
+			<Data name="name">
+				<value>3106FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4404938285324,34.06923959809778,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DCCA61B791AFDC6293C">
+		<ExtendedData>
+			<Data name="name">
+				<value>3071FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4404187200098,34.06748865327476,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01D4260B311AFDC6293D">
+		<ExtendedData>
+			<Data name="name">
+				<value>3072FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4404267034387,34.06748882183701,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B8F64CD471AFDC6293E">
+		<ExtendedData>
+			<Data name="name">
+				<value>3077FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4407562188688,34.06765344157521,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1F128DFD0C1AFDC6293E">
+		<ExtendedData>
+			<Data name="name">
+				<value>3076FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4407513944858,34.06765334028979,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B579686F81AFDC6293F">
+		<ExtendedData>
+			<Data name="name">
+				<value>3067FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4432668854646,34.06747957971496,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0EB348EE361AFDC62940">
+		<ExtendedData>
+			<Data name="name">
+				<value>3068FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4432630441724,34.06748133312117,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="081C1108B21AFDC62941">
+		<ExtendedData>
+			<Data name="name">
+				<value>3069FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4437047958912,34.06748587879216,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0550ECB34E1AFDC62942">
+		<ExtendedData>
+			<Data name="name">
+				<value>3070FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4437047958912,34.06748587879216,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C49D362561AFDC62943">
+		<ExtendedData>
+			<Data name="name">
+				<value>3058FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4443827515363,34.0669258556075,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1E08B45F911AFDC62943">
+		<ExtendedData>
+			<Data name="name">
+				<value>3057FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4444020179019,34.06692372703527,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B88DB22D41AFDC62944">
+		<ExtendedData>
+			<Data name="name">
+				<value>3046FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4442229670749,34.06566188269522,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C4769BABA1AFDC62945">
+		<ExtendedData>
+			<Data name="name">
+				<value>3045FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.444227686548,34.06566041818915,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0131FE0A6A1AFDC62946">
+		<ExtendedData>
+			<Data name="name">
+				<value>3027CC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.444178539487,34.06497227479717,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="18D7B3790E1AFDC62946">
+		<ExtendedData>
+			<Data name="name">
+				<value>3026CL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4441759952442,34.0649631817757,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06281EE1451AFDC62947">
+		<ExtendedData>
+			<Data name="name">
+				<value>3025CR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4441787815071,34.06494619117368,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0495410AD21AFDC62948">
+		<ExtendedData>
+			<Data name="name">
+				<value>3016FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4441500883698,34.06473130301548,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06AB4505181AFDC6294A">
+		<ExtendedData>
+			<Data name="name">
+				<value>3017FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4441595011966,34.06473204737489,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0319CA777C1AFDC6294B">
+		<ExtendedData>
+			<Data name="name">
+				<value>3036FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4435935846561,34.0654735213678,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0594E474451AFDC6294C">
+		<ExtendedData>
+			<Data name="name">
+				<value>3035FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.44360172688,34.06547290243191,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F72CE55731AFDC6294E">
+		<ExtendedData>
+			<Data name="name">
+				<value>3037FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4428030101367,34.06547651143834,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08254F03E71AFDC6294F">
+		<ExtendedData>
+			<Data name="name">
+				<value>3038FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4427878127951,34.06547657253969,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="17DC82B8991AFDC6294F">
+		<ExtendedData>
+			<Data name="name">
+				<value>3033FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4426527222686,34.06535348613923,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0937B5F1811AFDC62950">
+		<ExtendedData>
+			<Data name="name">
+				<value>3034FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4426527222686,34.06535348613923,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E487395471AFDC62951">
+		<ExtendedData>
+			<Data name="name">
+				<value>3041FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4426307677988,34.06561500204747,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07106238081AFDC62952">
+		<ExtendedData>
+			<Data name="name">
+				<value>3042FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4426398636564,34.06561633270469,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01D68B9D291AFDC62953">
+		<ExtendedData>
+			<Data name="name">
+				<value>3021DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4425402630551,34.06482274100615,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C63AAE5701AFDC62954">
+		<ExtendedData>
+			<Data name="name">
+				<value>3020DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4425360817429,34.06482179408163,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08797738791AFDC62955">
+		<ExtendedData>
+			<Data name="name">
+				<value>3022DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4425386237379,34.06482942383123,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04C76D9A501AFDC62956">
+		<ExtendedData>
+			<Data name="name">
+				<value>3024FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4428356020464,34.06488421215371,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="088FD9B2A81AFDC62957">
+		<ExtendedData>
+			<Data name="name">
+				<value>3023FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4428447837855,34.06488384316076,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CECD58C2B1AFDC62958">
+		<ExtendedData>
+			<Data name="name">
+				<value>3029DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4435107609241,34.06500966482929,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0EAF9DF7781AFDC62959">
+		<ExtendedData>
+			<Data name="name">
+				<value>3030DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4435107609241,34.06500966482929,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E5AED2FF51AFDC6295A">
+		<ExtendedData>
+			<Data name="name">
+				<value>3028DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4435105735488,34.06500768366296,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05F52D55A81AFDC6295C">
+		<ExtendedData>
+			<Data name="name">
+				<value>3134FR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4399227938809,34.07041459094435,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="011058E1861AFDC6295D">
+		<ExtendedData>
+			<Data name="name">
+				<value>3135FL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4398726291139,34.07041685858664,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B22621AF41AFDC6295E">
+		<ExtendedData>
+			<Data name="name">
+				<value>3145AL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4406634969458,34.071399512552,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="072669CBEB1AFDC6295F">
+		<ExtendedData>
+			<Data name="name">
+				<value>3144AR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4406623993308,34.07139765624335,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FF00A49451AFDC62960">
+		<ExtendedData>
+			<Data name="name">
+				<value>3146AC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.44066551041,34.07140041343958,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B902B446F1AFDC62961">
+		<ExtendedData>
+			<Data name="name">
+				<value>3140DR</value>
+			</Data>
+			<Data name="stream">
+				<value>Recycle</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4411099241496,34.07091933598867,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C38D85EB31AFDC62962">
+		<ExtendedData>
+			<Data name="name">
+				<value>3138DL</value>
+			</Data>
+			<Data name="stream">
+				<value>Landfill</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4411121526518,34.07091477689094,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00DCC1B8A91AFDC62963">
+		<ExtendedData>
+			<Data name="name">
+				<value>3139DC</value>
+			</Data>
+			<Data name="stream">
+				<value>Compost</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-118.4411049786602,34.07091681817748,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0708BE2EFF1AFF18825F">
+		<name>3xxxFL-1</name>
+		<LookAt>
+			<longitude>-118.44134969536</longitude>
+			<latitude>34.06888348076516</latitude>
+			<altitude>140.6886928075698</altitude>
+			<heading>357.3411847087582</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>261.8288106107502</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4415590003779,34.06910715460412,132.1615967505962</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00EB66B0341AFF19045F">
+		<name>3xxxFR-2</name>
+		<LookAt>
+			<longitude>-118.4415825996084</longitude>
+			<latitude>34.06889492427158</latitude>
+			<altitude>131.5117912148023</altitude>
+			<heading>359.7312997231655</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>222.0968195066598</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4415663355468,34.06910201408405,132.4569404705679</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0505649A181AFF199510">
+		<name>3xxxFL-3</name>
+		<LookAt>
+			<longitude>-118.4415825996084</longitude>
+			<latitude>34.06889492427158</latitude>
+			<altitude>131.5117912148023</altitude>
+			<heading>359.7312997231655</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>222.0968195066598</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4415773732274,34.06900114903237,131.8632686950334</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="071C12DE091AFF19E311">
+		<name>3xxxFR-4</name>
+		<LookAt>
+			<longitude>-118.4415825996084</longitude>
+			<latitude>34.06889492427158</latitude>
+			<altitude>131.5117912148023</altitude>
+			<heading>359.7312997231655</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>222.0968195066598</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4415773732274,34.06900114903237,131.8632474487373</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E489C14311AFF1A515C">
+		<name>3xxxFL-5</name>
+		<LookAt>
+			<longitude>-118.4415825996084</longitude>
+			<latitude>34.06889492427158</latitude>
+			<altitude>131.5117912148023</altitude>
+			<heading>359.731299717436</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>222.0968195066598</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4415554940844,34.06873444426096,154.2876462381026</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="054F8CC0151AFF1A824E">
+		<name>3xxxFR-6</name>
+		<LookAt>
+			<longitude>-118.4415825996084</longitude>
+			<latitude>34.06889492427158</latitude>
+			<altitude>131.5117912148023</altitude>
+			<heading>359.731299717436</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>222.0968195066598</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.441559171248,34.06874953275261,155.1563370299299</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="012B17CE8F1AFF238EA8">
+		<name>3xxxFL-7</name>
+		<LookAt>
+			<longitude>-118.4404224277553</longitude>
+			<latitude>34.06859377991583</latitude>
+			<altitude>124.7057116854232</altitude>
+			<heading>301.0030040072832</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>99.57884723335155</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4404997011019,34.06858720241792,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="076BCEBB011AFF240DB5">
+		<name>3xxxFR-8</name>
+		<LookAt>
+			<longitude>-118.440455571978</longitude>
+			<latitude>34.06865938204498</latitude>
+			<altitude>124.9404608469745</altitude>
+			<heading>312.8395910725918</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>117.8065689410505</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4404890810371,34.0685955934317,125.3225743508143</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00C966A4451AFF2A8AB3">
+		<name>3xxxDL-1</name>
+		<LookAt>
+			<longitude>-118.4401202629116</longitude>
+			<latitude>34.06700171960098</latitude>
+			<altitude>133.3274070955142</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>91.26844365570834</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4402573457334,34.0670000593504,123.2071271809936</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09ABB6547F1AFF2AE852">
+		<name>3xxxDC-2</name>
+		<LookAt>
+			<longitude>-118.4401642214019</longitude>
+			<latitude>34.06700364019802</latitude>
+			<altitude>123.1502992455836</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>83.5288869670967</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4402493954791,34.06700281972064,123.1969296783029</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A661726051AFF2B2C88">
+		<name>3xxxDR-3</name>
+		<LookAt>
+			<longitude>-118.4401642214019</longitude>
+			<latitude>34.06700364019802</latitude>
+			<altitude>123.1502992455836</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>83.5288869670967</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4402448560681,34.06699576579496,123.7925495828394</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0554C95F5B1AFF37F4DD">
+		<name>3xxxXL-1</name>
+		<LookAt>
+			<longitude>-118.4416726724678</longitude>
+			<latitude>34.06657996300283</latitude>
+			<altitude>118.982606412724</altitude>
+			<heading>341.8598452547992</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>136.0293306424865</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4419135543976,34.06655299584742,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0046F5F6771AFF398EC1">
+		<name>3xxxXL-2</name>
+		<LookAt>
+			<longitude>-118.4420192375665</longitude>
+			<latitude>34.06637301700081</latitude>
+			<altitude>152.6024815737997</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00000145660862</gx:fovy>
+			<range>729.2725485146367</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4421534557561,34.06654803008492,141.2116230650966</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03FEF7A0721AFF3DEA6F">
+		<name>3xxxBL-1</name>
+		<LookAt>
+			<longitude>-118.4428784897452</longitude>
+			<latitude>34.06599212022137</latitude>
+			<altitude>119.5756645986485</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00000145660862</gx:fovy>
+			<range>232.1815320536917</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4427108588144,34.06622833184836,119.5981972835075</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B01F3B9C41AFF3E4877">
+		<name>3xxxBR-2</name>
+		<LookAt>
+			<longitude>-118.442668740501</longitude>
+			<latitude>34.06618241844468</latitude>
+			<altitude>119.3016562873313</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>204.9710304053224</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.442682897721,34.06623959108869,122.2601030161047</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="000110A4271AFF3E883A">
+		<name>3xxxBC-3</name>
+		<LookAt>
+			<longitude>-118.442668740501</longitude>
+			<latitude>34.06618241844468</latitude>
+			<altitude>119.3016562873313</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>204.9710304053224</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4426581226184,34.06623226120877,122.2601182745766</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0EDAC897FD1AFF3F70D7">
+		<name>3xxxXL-3</name>
+		<LookAt>
+			<longitude>-118.4421337905</longitude>
+			<latitude>34.06612155020802</latitude>
+			<altitude>136.5508961071227</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>187.7217742321955</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4423942337615,34.06626391470435,122.0236545997094</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07E54418751AFF4073AF">
+		<name>3xxxBL-4</name>
+		<LookAt>
+			<longitude>-118.4427276150521</longitude>
+			<latitude>34.06628331629193</latitude>
+			<altitude>122.4325936462708</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>201.8400843958079</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4426794462527,34.0660483339547,120.6158575328164</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0540E3D17E1AFF40B1EE">
+		<name>3xxxBR-5</name>
+		<LookAt>
+			<longitude>-118.4427276150521</longitude>
+			<latitude>34.06628331629193</latitude>
+			<altitude>122.4325936462708</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>201.8400843958079</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4426794462527,34.0660483339547,120.6158433676748</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08A69D22191AFF40EEF4">
+		<name>3xxxBC-6</name>
+		<LookAt>
+			<longitude>-118.4427276150521</longitude>
+			<latitude>34.06628331629193</latitude>
+			<altitude>122.4325936462708</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>201.8400843958079</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4426794462527,34.0660483339547,120.6158433676748</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="003B7B6E341AFF426451">
+		<name>3xxxAL-1</name>
+		<LookAt>
+			<longitude>-118.4427761059196</longitude>
+			<latitude>34.0662192452986</latitude>
+			<altitude>119.3680045845474</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>204.9046729383554</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4429325074547,34.06617010113142,119.0505783305185</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0781B46EC01AFF42D194">
+		<name>3xxxAR-2</name>
+		<LookAt>
+			<longitude>-118.4427761059196</longitude>
+			<latitude>34.0662192452986</latitude>
+			<altitude>119.3680045845474</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>204.9046729383554</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4429270773075,34.06617011322585,119.1009860447022</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E8492D85B1AFF430B9C">
+		<name>3xxxAC-3</name>
+		<LookAt>
+			<longitude>-118.4427761059196</longitude>
+			<latitude>34.0662192452986</latitude>
+			<altitude>119.3680045845474</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>204.9046729383554</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4429270773075,34.06617011322585,119.1009766012745</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="055677DF951AFF437203">
+		<name>3xxxBL-7</name>
+		<LookAt>
+			<longitude>-118.4427761059196</longitude>
+			<latitude>34.0662192452986</latitude>
+			<altitude>119.3680045845474</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>204.9046729383554</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4430348885412,34.06612247928622,119.1211393008834</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D8932D7BD1AFF43A98B">
+		<name>3xxxBR-8</name>
+		<LookAt>
+			<longitude>-118.4427761059196</longitude>
+			<latitude>34.0662192452986</latitude>
+			<altitude>119.3680045845474</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>204.9046729383554</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.443027767927,34.0661343660576,119.0658053960096</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BDD386B8E1AFF43E723">
+		<name>3xxxBC-9</name>
+		<LookAt>
+			<longitude>-118.4427761059196</longitude>
+			<latitude>34.0662192452986</latitude>
+			<altitude>119.3680045845474</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>204.9046729383554</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4429325074547,34.06617010113142,119.05058777253</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B30077E721AFF46B421">
+		<name>3xxxAL-4</name>
+		<LookAt>
+			<longitude>-118.443330204443</longitude>
+			<latitude>34.06612999177538</latitude>
+			<altitude>119.3204842007719</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>169.0555091670103</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4432367406721,34.06613859448823,119.041387639128</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="013FD292501AFF46E0AB">
+		<name>3xxxAR-5</name>
+		<LookAt>
+			<longitude>-118.443330204443</longitude>
+			<latitude>34.06612999177538</latitude>
+			<altitude>119.3204842007719</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>169.0555091670103</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4432545960637,34.06614104469597,119.1597421851807</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C0DE0934A1AFF472268">
+		<name>3xxxAC-6</name>
+		<LookAt>
+			<longitude>-118.443330204443</longitude>
+			<latitude>34.06612999177538</latitude>
+			<altitude>119.3204842007719</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>169.0555091670103</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4432367406721,34.06613859448823,119.0413923608419</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C9A61BEC01AFF477D6D">
+		<name>3xxxBL-10</name>
+		<LookAt>
+			<longitude>-118.443330204443</longitude>
+			<latitude>34.06612999177538</latitude>
+			<altitude>119.3204842007719</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>169.0555091670103</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4433302044747,34.06611164270031,119.8269541894834</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="000D5022DC1AFF47C81B">
+		<name>3xxxBR-11</name>
+		<LookAt>
+			<longitude>-118.443330204443</longitude>
+			<latitude>34.06612999177538</latitude>
+			<altitude>119.3204842007719</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>169.0555091670103</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4433435167429,34.06611896394789,119.5455797350119</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="024C99025E1AFF47FFFF">
+		<name>3xxxBC-12</name>
+		<LookAt>
+			<longitude>-118.443330204443</longitude>
+			<latitude>34.06612999177538</latitude>
+			<altitude>119.3204842007719</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>169.0555091670103</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.443346474084,34.06611896464338,119.5555515896317</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="061F2B5F161AFF4843B1">
+		<name>3xxxBL-13</name>
+		<LookAt>
+			<longitude>-118.443330204443</longitude>
+			<latitude>34.06612999177538</latitude>
+			<altitude>119.3204842007719</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>169.0555091670103</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4433302044612,34.06625909847934,120.5563631168292</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F9C969F9A1AFF487CF9">
+		<name>3xxxBR-14</name>
+		<LookAt>
+			<longitude>-118.443330204443</longitude>
+			<latitude>34.06612999177538</latitude>
+			<altitude>119.3204842007719</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>169.0555091670103</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4433552485835,34.06626301237633,120.2271925912712</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07A1753C0C1AFF48AA4F">
+		<name>3xxxBC-15</name>
+		<LookAt>
+			<longitude>-118.443330204443</longitude>
+			<latitude>34.06612999177538</latitude>
+			<altitude>119.3204842007719</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>169.0555091670103</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4433478876884,34.06626671196895,120.1797141057175</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E63AB75C21AFF51481B">
+		<name>3xxxXL-4</name>
+		<LookAt>
+			<longitude>-118.4419858696791</longitude>
+			<latitude>34.0654336034001</latitude>
+			<altitude>118.0909852322976</altitude>
+			<heading>-11.57099491138056</heading>
+			<tilt>7.818346108211037</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>223.4438784038502</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4418661368747,34.06551008335871,117.6425183545192</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C17C1DADC1AFF552CCA">
+		<name>3xxxDL-4</name>
+		<LookAt>
+			<longitude>-118.4419858696791</longitude>
+			<latitude>34.0654336034001</latitude>
+			<altitude>118.0909852322976</altitude>
+			<heading>-11.57099491138056</heading>
+			<tilt>7.818346108211037</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>223.4438784038502</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4423569700411,34.06575498004113,119.1144995614306</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0813C8609D1AFF558E50">
+		<name>3xxxDC-5</name>
+		<LookAt>
+			<longitude>-118.4419858696791</longitude>
+			<latitude>34.0654336034001</latitude>
+			<altitude>118.0909852322976</altitude>
+			<heading>-11.57099491138056</heading>
+			<tilt>7.818346108211037</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>223.4438784038502</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.442358501313,34.06575300227324,119.1040923064447</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03FD6C56831AFF5624B9">
+		<name>3xxxDR-6</name>
+		<LookAt>
+			<longitude>-118.4419858697554</longitude>
+			<latitude>34.06543360361142</latitude>
+			<altitude>118.0909852337123</altitude>
+			<heading>-11.57099491117318</heading>
+			<tilt>7.818346106349786</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>223.4438784038502</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.442358501313,34.06575300227324,119.1041159135978</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0437173CC91AFF6015DD">
+		<name>3xxxXR-5</name>
+		<LookAt>
+			<longitude>-118.4425359133073</longitude>
+			<latitude>34.06536573117004</latitude>
+			<altitude>127.7777925878438</altitude>
+			<heading>-11.5712979389554</heading>
+			<tilt>7.818296868020157</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>183.1939838420658</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4427196367961,34.06546442128304,127.2951460466952</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00BF5B69C71AFF6081AB">
+		<name>3xxxXL-6</name>
+		<LookAt>
+			<longitude>-118.4425374191253</longitude>
+			<latitude>34.06541249491903</latitude>
+			<altitude>128.7708768273526</altitude>
+			<heading>-0.7364162881251876</heading>
+			<tilt>1.09511040736449</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>108.8892657185716</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0069D449251AFF18825F</styleUrl>
+		<Point>
+			<coordinates>-118.4427101669404,34.06546979671246,118.2201430824441</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

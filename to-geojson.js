@@ -38,6 +38,9 @@ convertedCombined.features.forEach( bin => {
     }
 });
 
+console.log(`Removed ${convertedCombined.features.length - uniqueFeatures.length} duplicate features`)
+console.log(`Writing ${convertedCombined.features.length} features to ${__dirname + '/' + outputFile}`)
+
 // update output and write new geojson
 convertedCombined.features = uniqueFeatures
-fs.writeFileSync(__dirname + outputFile, JSON.stringify(convertedCombined))
+fs.writeFileSync(__dirname + '/' + outputFile, JSON.stringify(convertedCombined))
