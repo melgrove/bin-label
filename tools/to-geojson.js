@@ -20,7 +20,7 @@ if(combineDir) {
     var geojsonFiles = [__dirname + '/' + jsonDir]
 }
 const convertedFiles = geojsonFiles
-                    .map( name => new DOMParser().parseFromString(fs.readFileSync(__dirname + '/' + jsonDir + name, 'utf8')))
+                    .map( name => new DOMParser().parseFromString(fs.readFileSync(__dirname + '/' + jsonDir, 'utf8')))
                     .map( kml => tj.kml(kml, { styles: true }).features)
                     .reduce((acc,el) => [...acc, ...el]);
 
