@@ -1,7 +1,7 @@
 # REA RNG Bin Labeling
 
 ## UCLA Waste Bin Data  
-**Every UCLA Facilities waste bin on campus split by stream, cluster type, and ID ordered by latitude:**
+**Every UCLA Facilities waste bin on campus split by stream, cluster type, and ID, ordered by latitude:**
 - [GeoJSON file](https://github.com/melgrove/bin-label/blob/main/geojson/peer_reviewed_labels_final.json)
 - [KML file](https://github.com/melgrove/bin-label/blob/main/kml/final/peer_reviewed_labels6.kml)
 
