@@ -15,10 +15,10 @@ library(sf)
 library(geojsonsf)
 
 # This is an API Key to use Google Maps in R. You can get one yourself from
-# Google or ask me for mine. I didn't include it in the file because it
-# costs money to use and I don't know who will be using this file in the future
+# Google Cloud. I revoked access to mine because it costs money to use and 
+# this repository is now open.
 # - Oliver
-ggmap::register_google("AIzaSyCKFuWElFtWdo5Dk6RJN-XhJnu-aCLMXmw")
+ggmap::register_google("API key goes here")
 
 # Parse GeoJSON
 root_dir <- dirname(sys.frame(1)$ofile)
